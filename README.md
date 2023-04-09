@@ -16,7 +16,8 @@ Mohammed Aitezazuddin Ahmed
 
 
 
-
+![Screenshot (89)](https://user-images.githubusercontent.com/90353088/230757398-fb196a3a-b119-429a-b892-910de81140b1.png)
+The main page of the chat server room allows the user to enter a chat room ID or create a new chat room. The user can also see the list of chat rooms available on the server.
 
 ## Improvements
 
