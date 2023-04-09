@@ -6,43 +6,52 @@
   <title>Chat Server</title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-
   <meta property="og:title" content="">
   <meta property="og:type" content="">
   <meta property="og:url" content="">
   <meta property="og:image" content="">
-
   <link rel="manifest" href="site.webmanifest">
   <link rel="apple-touch-icon" href="icon.png">
   <!-- Place favicon.ico in the root directory -->
-
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/style.css">
-
   <meta name="theme-color" content="#fafafa">
 </head>
 
 <body>
-
-<!-- Add your site or application content here -->
-
-
-
-
-
-
-<script src="js/vendor/modernizr-3.11.2.min.js"></script>
-<script src="js/plugins.js"></script>
-<script src="js/main.js"></script>
-
-<!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
-<script>
-  window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
-  ga('create', 'UA-XXXXX-Y', 'auto'); ga('set', 'anonymizeIp', true); ga('set', 'transport', 'beacon'); ga('send', 'pageview')
-</script>
-<script src="https://www.google-analytics.com/analytics.js" async></script>
+  <header>
+    <h1>Chat Server</h1>
+  </header>
+  <main>
+    <div class="chat-rooms">
+      <h2>List of Chat Rooms</h2>
+      <ul>
+        <li>Room 1</li>
+        <li>Room 2</li>
+        <li>Room 3</li>
+      </ul>
+      <button>Create and Join New Room</button>
+    </div>
+    <div class="chat-window">
+      <h2>Room Name</h2>
+      <div class="chat-messages">
+        <!-- Chat messages will be displayed here -->
+      </div>
+      <form class="chat-form">
+        <input type="text" placeholder="Type your message here...">
+        <button>Send</button>
+      </form>
+    </div>
+  </main>
+  <script src="js/vendor/modernizr-3.11.2.min.js"></script>
+  <script src="js/plugins.js"></script>
+  <script src="js/main.js"></script>
+  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+  <script>
+    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+    ga('create', 'UA-XXXXX-Y', 'auto'); ga('set', 'anonymizeIp', true); ga('set', 'transport', 'beacon'); ga('send', 'pageview')
+  </script>
+  <script src="https://www.google-analytics.com/analytics.js" async></script>
 </body>
 
 </html>
-
-
