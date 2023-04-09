@@ -12,13 +12,13 @@ The application uses Java Servlets to handle HTTP requests and responses on the 
 ## Group Members:
 Mohammed Aitezazuddin Ahmed
 
-### Screenshots:
+## Screenshots:
 
 
 
 
 
-### Improvements
+## Improvements
 
 We made some enhancements to the original chat server application to improve the user experience and the functionality of the chat rooms. The following features were added:
 
@@ -28,7 +28,7 @@ We made some enhancements to the original chat server application to improve the
 - Users can see which messages were sent by them and which were sent by other users. This allows users to distinguish their own messages from others and to identify the sender of each message. The application shows the username of each message sender and highlights the messages that were sent by the current user.
 - Added functionality to clear chat history. This allows users to delete all messages in the chat room and start a new conversation. The application removes all messages from the database and clears the user interface.
 
-#### How to Run
+## How to Run
 
 The Chat Server Room application is a web-based application that runs on a local server and uses web sockets to communicate with the clients. To run the application, you need to have Java installed on your machine and an IDE that supports Java Servlets and WebSockets. The following steps will guide you through the process of running the application:
 
@@ -39,7 +39,7 @@ The Chat Server Room application is a web-based application that runs on a local
 - Enter a chat room ID to join or create a new chat room. If the chat room ID already exists, you will join that chat room. If not, you will create a new chat room with that ID. You can also click on the "Create and join new room" button to generate a random ID and join a new chat room.
 - Start sending messages and chatting with other users! You can enter your username and type your message in the input fields at the bottom of the page. You can also see the chat history, the number of users, and the list of chat rooms on the page. You can leave the chat room by closing the browser tab or window.
 
-##### Other Resources
+## Other Resources
 
 The following libraries were used in the implementation of this project:
 
